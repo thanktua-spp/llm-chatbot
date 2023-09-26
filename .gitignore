@@ -1,3 +1,4 @@
+.env
 llm-env
 chat_history
 data
