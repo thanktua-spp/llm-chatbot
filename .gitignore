@@ -3,4 +3,3 @@ chat_history
 data
 persist
 .pytest_cache
-.env
