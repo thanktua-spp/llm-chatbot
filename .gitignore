@@ -1,6 +1,8 @@
-env
+myenv
 chat_history
 data
 persist
 .pytest_cache
 .env
+*
+\C:\User\egbet\*
