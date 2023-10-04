@@ -19,4 +19,4 @@ prompt_info = [
 for p_info in prompt_info:
     name = p_info["name"]
     prompt_template = p_info["prompt_template"]
-    
+     

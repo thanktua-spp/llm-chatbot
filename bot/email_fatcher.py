@@ -16,7 +16,7 @@ def access_outlook_email(target_sender_email):
     filtered_messages = messages.Restrict(f"[SenderEmailAddress]='{target_sender_email}'")
     #filtered_messages = messages.Restrict(f"SenderEmailAddress = '{target_sender_email}'")
     for message in filtered_messages:
-        message_info = f"Subject: {message.Subject}\nSender: {message.SenderName}\nBody:\n{message.Body}\n\n"
+        message_info = f"Subject: {message.Subject}\nSender: {message.SenderName}\nBody:{message.Body}\n"
         all_message_info += message_info
     return all_message_info
 
